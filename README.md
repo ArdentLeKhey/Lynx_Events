@@ -1,3 +1,4 @@
+**Documentation en Français**
 # Lynx_Events
 
 Lynx_Events est une ressource permettant de protéger un serveur FiveM des Lua Executor tel que Lynx, Brutan etc...
@@ -39,6 +40,57 @@ Vous pouvez demander de l'aide sur ces discords :
 [Mon discord](https://discord.gg/hEhcEE4)
 
 [Discord d'entraide](https://discord.gg/EzwYgdV)
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+
+
+
+**Documentation in English**
+
+# Lynx_Events
+
+Lynx_Events is a resource to protect a FiveM server from Lua Executor such as Lynx, Brutan etc...
+
+## Installation
+
+You must retrieve all **events** from your server contained in the *lynx.json* file and rename them to prevent cheaters from Trigger them.
+
+Once this is done you need to add the Lynx_Events resource to your server and add this line to your *server.cfg* : 
+```cfg
+ensure Lynx_Events
+```
+
+## Use
+
+You must add the event used to ban a player from your server at each place in the code where it is requested: 
+
+```lua
+for k, v in pairs(lynx["TriggerServerEvent"]) do
+    RegisterNetEvent(v)  
+    AddEventHandler(v, function(args)
+        -- function or event for ban <===
+    end)
+end
+```
+
+## Video
+
+[![Video](https://img.youtube.com/vi/qsdB-YhKOJk/0.jpg)](https://www.youtube.com/watch?v=qsdB-YhKOJk)
+
+## To go further ##
+
+You can complete the *lynx.json* with events from other menus, I have created a resource that allows to extract events from a resource automatically (even if encoded in bytecode).
+
+## Support
+
+You can ask for help on these disagreements:
+
+[My discord](https://discord.gg/hEhcEE4)
+
+[Mutual aid discord](https://discord.gg/EzwYgdV)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
