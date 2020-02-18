@@ -86,7 +86,7 @@ You can complete the *lynx.json* with events from other menus, I have created a 
 
 ## Support
 
-You can ask for help on these disagreements:
+You can ask for help on these discords:
 
 [My discord](https://discord.gg/hEhcEE4)
 
