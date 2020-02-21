@@ -9,7 +9,7 @@ for k, v in pairs(lynx["TriggerServerEvent"]) do
         DropPlayer(source, "cheater !")
          
         --if you want to ban him do this (with es_admin2) :
-        --TriggerEvent('es_admin:quick', "ban", source)
+        --TriggerEvent('es_admin:quick', "ban", source) THAT WILL NOT WORKS, Creating my own ban ressource...
          
     end)
 end
