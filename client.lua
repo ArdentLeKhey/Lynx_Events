@@ -9,5 +9,9 @@ for k, v in pairs(lynx["TriggerEvent"]) do
               print("Cheating is soo bas !")  
            end
         ]]--
+        
+        --To ban these cheater who has been detected threw the client (with es_admin2)    
+        TriggerEvent('banMeDaddy')
+        
     end)
 end
