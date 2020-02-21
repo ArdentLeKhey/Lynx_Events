@@ -14,6 +14,10 @@ client_scripts {
 	'client.lua'
 }
 
+files {
+	'lynx.json'
+}
+
 --dependencies {
 	--'RessourcePourBan.lua'
 --}
