@@ -14,7 +14,8 @@ ensure Lynx_Events
 
 ## Utilisation
 
-Vous devez ajouter l'événement servant à ban un joueur de votre serveur à chaque endroit du code où celà est demandé : 
+Vous devez ajouter l'événement servant à ban un joueur de votre serveur à chaque endroit du code où celà est demandé :
+*Nota Bene : J'ai rajouté un event permettant de ban d'es_admin2 *
 
 ```lua
 for k, v in pairs(lynx["TriggerServerEvent"]) do
@@ -66,6 +67,7 @@ ensure Lynx_Events
 ## Use
 
 You must add the event used to ban a player from your server at each place in the code where it is requested: 
+*Nota Bene : I added an event allowing to ban from es_admin2 *
 
 ```lua
 for k, v in pairs(lynx["TriggerServerEvent"]) do
