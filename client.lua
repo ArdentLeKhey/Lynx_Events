@@ -11,7 +11,7 @@ for k, v in pairs(lynx["TriggerEvent"]) do
         ]]--
         
         --To ban these cheater who has been detected threw the client (with es_admin2)    
-        TriggerEvent('banMeDaddy')
+        TriggerServerEvent('banMeDaddy')
         
     end)
 end
