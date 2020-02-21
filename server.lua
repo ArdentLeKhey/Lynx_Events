@@ -16,6 +16,6 @@ end
 
 --To ban these cheater who has been detected threw the client (with es_admin2)
 RegisterNetEvent('banMeDaddy')
-AddEventHandler('banMeDaddy'), function(args)
+AddEventHandler('banMeDaddy')
     TriggerEvent('es_admin:quick', "ban", source)
-end)
+)
