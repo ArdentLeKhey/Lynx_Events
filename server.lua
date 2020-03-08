@@ -12,7 +12,7 @@ for k, v in pairs(lynx["TriggerServerEvent"]) do
     end)
 end
 
---To ban these cheater who has been detected threw the client (with es_admin2)
+--To ban these cheater who has been detected threw the client !
 RegisterNetEvent('banMeDaddy')
 AddEventHandler('banMeDaddy', function()
     --Here drop your ban event !
